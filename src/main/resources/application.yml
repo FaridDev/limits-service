@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: limits-service
+server:
+  port: 8080
+
+limits-service:
+  minimum: 99
+  maximum: 9999
