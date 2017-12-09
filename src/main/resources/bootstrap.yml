@@ -1,0 +1,12 @@
+spring:
+  profiles:
+      active: dev
+  application:
+    name: limits-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://localhost:8888
+
+
